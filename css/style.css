@@ -4,8 +4,13 @@
 }
 
 .my_color2 {
-    background-color: palegreen;
-    height: calc(100vh - 54px);
+    height: calc(100vh - 66px);
+}
+
+
+/* set color nav bell icon TEMPORARY */
+.fa-bell {
+    color: #FF8F00;
 }
 
 
@@ -40,7 +45,7 @@
 }
 
 .my_sidebar {
-    height: calc(100vh - 54px);
+    height: calc(100vh - 66px);
 }
 
 .mobile_logo {
@@ -58,7 +63,6 @@
     width: calc(100% - 70px);
 }
 
-
 /* Media queries */
 @media screen and (min-width:992px) {
     .aside {
@@ -67,5 +71,9 @@
 
     .main {
         width: calc(100% - 150px);
+    }
+
+    .my_nav {
+        min-height: 66px;
     }
 }
