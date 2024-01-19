@@ -42,12 +42,6 @@
     height: calc(100vh - 54px);
 }
 
-
-.fa.solid {
-    width: 20px !important;
-
-}
-
 .mobile_logo {
     width: 40px
 }
@@ -59,9 +53,6 @@
 .main {
     width: calc(100% - 70px);
 }
-
-
-
 
 
 /* Media queries */
