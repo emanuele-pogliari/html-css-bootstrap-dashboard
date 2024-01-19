@@ -16,20 +16,23 @@
 <body>
     <!-- nav -->
     <nav class="navbar navbar-expand-lg bg-body-tertiary">
-        <div class="container-fluid flex-nowrap ">
-            <a class="navbar-brand" href="#">Boolean</a>
-            <form class="d-flex w-100" role="search">
+        <div class="container-fluid bg-white">
+            <a class="navbar-brand" href="#">
+                <img src="./img/logo.svg" alt="" class="d-none d-lg-block">
+                <img src="./img/mobile-logo.png" alt="" class="d-lg-none mobile_logo">
+            </a>
+            <form class="d-flex flex-grow-1" role="search">
                 <input class="form-control me-2" type="search" placeholder="prova a cercare: lezioni di laravel"
                     aria-label="Search">
             </form>
-            <div class="navbar-nav">
-                <a class="nav-link" href="#"><i class="fa-solid fa-list"></i></a>
-                <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
-                    <a class="nav-link" href="#"><i class="fa-solid fa-circle-question"></i></a>
-                    <a class="nav-link" href="#"><i class="fa-solid fa-ellipsis-vertical"></i></a>
-                    <a class="nav-link" href="#"><i class="fa-solid fa-bell"></i></a>
-                </div>
+
+            <div class="d-none d-lg-block">
+                <button type="button" class="btn"><i type="button" class="fa-solid fa-list"></i></button>
+                <button type="button" class="btn"><i type="button" class="fa-solid fa-circle-question"></i></button>
+                <button type="button" class="btn"><i type="button" class=" fa-solid fa-ellipsis-vertical"></i></button>
             </div>
+
+            <button type="button" class="btn"><i class="fa-solid fa-bell text-warning-emphasis"></i></button>
         </div>
     </nav>
     <!-- end nav -->
@@ -37,9 +40,9 @@
     <!-- main container -->
     <div class="container-fluid">
 
-        <div class="row ">
+        <div class="row">
 
-            <div class="col-1 text-white d-flex my_sidebar bg-black ">
+            <div class=" aside text-white d-flex my_sidebar bg-black ">
 
                 <div class="row align-content-between">
 
@@ -61,11 +64,33 @@
 
             </div>
 
-            <div class="col-11 my_color2 overflow-y-auto ">
+            <div class=" main my_color2 overflow-y-auto ">
 
                 <div id="boolean_row" class="row mb-3">
 
-                    <div class="col-12 col-md-4 col-lg-6">col1</div>
+                    <div class="col-12 col-md-4 col-lg-6">
+                        <h3 class="d-inline">Boolean</h3>
+                        <button class="btn-sm">Piano blaze</button>
+
+
+                        <nav style="--bs-breadcrumb-divider: '>';" aria-label="breadcrumb">
+                            <ol class="breadcrumb">
+                                <li class="breadcrumb-item">
+                                    <button class="btn btn-sm">3 app</button>
+                                </li>
+                                <li class="breadcrumb-item active" aria-current="page">
+                                    <button class="btn btn-sm">Boolean mobile app</button>/li>
+                                <li class="breadcrumb-item active" aria-current="page">
+                                    <button class="btn btn-sm">Boolean web app</button>
+                                </li>
+                                <li class="breadcrumb-item active" aria-current="page">
+                                    <button class="btn btn-sm">Boolean blog app</button>
+                                </li>
+
+                            </ol>
+                        </nav>
+
+                    </div>
                     <div class="col-12 col-md-4 col-lg-3">col2</div>
                     <div class="col-12 col-md-4 col-lg-3">col3</div>
 

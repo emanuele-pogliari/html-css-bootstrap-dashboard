@@ -5,12 +5,13 @@
 
 .my_color2 {
     background-color: palegreen;
-    height: calc(100vh - 56px);
+    height: calc(100vh - 54px);
 }
 
 #boolean_row {
-    background-color: tomato;
+    background-color: orange;
     height: 100px;
+    /* #1B72E8; */
 }
 
 #next_class {
@@ -38,11 +39,38 @@
 }
 
 .my_sidebar {
-    height: calc(100vh - 56px);
+    height: calc(100vh - 54px);
 }
 
 
 .fa.solid {
     width: 20px !important;
 
+}
+
+.mobile_logo {
+    width: 40px
+}
+
+.aside {
+    width: 70px;
+}
+
+.main {
+    width: calc(100% - 70px);
+}
+
+
+
+
+
+/* Media queries */
+@media screen and (min-width:992px) {
+    .aside {
+        width: 150px;
+    }
+
+    .main {
+        width: calc(100% - 150px);
+    }
 }
