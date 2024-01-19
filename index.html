@@ -80,7 +80,7 @@
 
             <div class=" main my_color2 overflow-y-auto ">
 
-                <div id="boolean_row" class="row mb-3 text-white bg-primary ">
+                <div id="boolean_row" class="row mb-4 text-white bg-primary ">
 
                     <div class="col-12 col-md-4 col-lg-6">
                         <h3 class="d-inline">Boolean</h3>
@@ -98,8 +98,14 @@
                         </nav>
 
                     </div>
-                    <div class="col-12 col-md-4 col-lg-3">col2</div>
-                    <div class="col-12 col-md-4 col-lg-3">col3</div>
+                    <div class="col-12 col-md-4 col-lg-3">
+                        <div>Studenti online negli ultimi 30 minuti</div>
+                        <div>125</div>
+                    </div>
+                    <div class="col-12 col-md-4 col-lg-3">
+                        <div>Nuovo Studente</div>
+                        <button>+</button>
+                    </div>
 
                 </div>
 
@@ -116,29 +122,77 @@
                                     <table class="table table-hover">
                                         <thead>
                                             <tr>
-                                                <th scope="col">#</th>
-                                                <th scope="col">First</th>
-                                                <th scope="col">Last</th>
-                                                <th scope="col">Handle</th>
+                                                <th scope="col">Nome</th>
+                                                <th scope="col">Data inizio</th>
+                                                <th scope="col">ROI</th>
+                                                <th scope="col">Stato</th>
+                                                <th scope="col">Azioni</th>
                                             </tr>
                                         </thead>
                                         <tbody>
                                             <tr>
-                                                <th scope="row">1</th>
-                                                <td>Mark</td>
-                                                <td>Otto</td>
+                                                <td scope="row"><img class="avatar" src="./img/class-avatar.jpg" alt="">
+                                                    Classe 75</td>
+                                                <td>15 Feb 2021</td>
+                                                <td>20%</td>
                                                 <td>@mdo</td>
+                                                <td>buttons</td>
                                             </tr>
                                             <tr>
-                                                <th scope="row">2</th>
-                                                <td>Jacob</td>
-                                                <td>Thornton</td>
-                                                <td>@fat</td>
+                                                <td scope="row"><img class="avatar" src="./img/class-avatar.jpg" alt="">
+                                                    Classe 76</td>
+                                                <td>16 Feb 2021</td>
+                                                <td>20%</td>
+                                                <td>@mdo</td>
+                                                <td>buttons</td>
                                             </tr>
                                             <tr>
-                                                <th scope="row">3</th>
-                                                <td colspan="2">Larry the Bird</td>
-                                                <td>@twitter</td>
+                                                <td scope="row"><img class="avatar" src="./img/class-avatar.jpg" alt="">
+                                                    Classe 77</td>
+                                                <td>17 Feb 2021</td>
+                                                <td>20%</td>
+                                                <td>@mdo</td>
+                                                <td>buttons</td>
+                                            </tr>
+                                            <tr>
+                                                <td scope="row"><img class="avatar" src="./img/class-avatar.jpg" alt="">
+                                                    Classe 78</td>
+                                                <td>18 Feb 2021</td>
+                                                <td>20%</td>
+                                                <td>@mdo</td>
+                                                <td>buttons</td>
+                                            </tr>
+                                            <tr>
+                                                <td scope="row"><img class="avatar" src="./img/class-avatar.jpg" alt="">
+                                                    Classe 79</td>
+                                                <td>19 Feb 2021</td>
+                                                <td>20%</td>
+                                                <td>@mdo</td>
+                                                <td>buttons</td>
+                                            </tr>
+                                            <tr>
+                                                <td scope="row"><img class="avatar" src="./img/class-avatar.jpg" alt="">
+                                                    Classe 80</td>
+                                                <td>20 Feb 2021</td>
+                                                <td>20%</td>
+                                                <td>@mdo</td>
+                                                <td>buttons</td>
+                                            </tr>
+                                            <tr>
+                                                <td scope="row"><img class="avatar" src="./img/class-avatar.jpg" alt="">
+                                                    Classe 81</td>
+                                                <td>21 Feb 2021</td>
+                                                <td>20%</td>
+                                                <td>@mdo</td>
+                                                <td>buttons</td>
+                                            </tr>
+                                            <tr>
+                                                <td scope="row"><img class="avatar" src="./img/class-avatar.jpg" alt="">
+                                                    Classe 82</td>
+                                                <td>22 Feb 2021</td>
+                                                <td>20%</td>
+                                                <td>@mdo</td>
+                                                <td>buttons</td>
                                             </tr>
                                         </tbody>
                                     </table>
@@ -149,20 +203,20 @@
                         <div id="faq" class="row">
                             <div class="col">
                                 <div class="card">
+                                    <div class="card-header">F.A.Q.</div>
                                     <div class="accordion accordion-flush" id="accordionFlushExample">
                                         <div class="accordion-item">
                                             <h2 class="accordion-header">
                                                 <button class="accordion-button collapsed" type="button"
                                                     data-bs-toggle="collapse" data-bs-target="#flush-collapseOne"
                                                     aria-expanded="false" aria-controls="flush-collapseOne">
-                                                    Accordion Item #1
+                                                    Come aggiungere un nuovo studente?
                                                 </button>
                                             </h2>
                                             <div id="flush-collapseOne" class="accordion-collapse collapse"
                                                 data-bs-parent="#accordionFlushExample">
-                                                <div class="accordion-body">Placeholder content for this accordion,
-                                                    which is intended to demonstrate the <code>.accordion-flush</code>
-                                                    class. This is the first item's accordion body.</div>
+                                                <div class="accordion-body">Clicca sul + in alto nella sezione blu.
+                                                </div>
                                             </div>
                                         </div>
                                         <div class="accordion-item">
@@ -170,15 +224,12 @@
                                                 <button class="accordion-button collapsed" type="button"
                                                     data-bs-toggle="collapse" data-bs-target="#flush-collapseTwo"
                                                     aria-expanded="false" aria-controls="flush-collapseTwo">
-                                                    Accordion Item #2
+                                                    Come posso accedere alle informazioni del mio account?
                                                 </button>
                                             </h2>
                                             <div id="flush-collapseTwo" class="accordion-collapse collapse"
                                                 data-bs-parent="#accordionFlushExample">
-                                                <div class="accordion-body">Placeholder content for this accordion,
-                                                    which is intended to demonstrate the <code>.accordion-flush</code>
-                                                    class. This is the second item's accordion body. Let's imagine this
-                                                    being filled with some actual content.</div>
+                                                <div class="accordion-body">Clicca sull'icona della campanella.</div>
                                             </div>
                                         </div>
                                         <div class="accordion-item">
@@ -186,17 +237,12 @@
                                                 <button class="accordion-button collapsed" type="button"
                                                     data-bs-toggle="collapse" data-bs-target="#flush-collapseThree"
                                                     aria-expanded="false" aria-controls="flush-collapseThree">
-                                                    Accordion Item #3
+                                                    Posso usare questa dashboard da mobile?
                                                 </button>
                                             </h2>
                                             <div id="flush-collapseThree" class="accordion-collapse collapse"
                                                 data-bs-parent="#accordionFlushExample">
-                                                <div class="accordion-body">Placeholder content for this accordion,
-                                                    which is intended to demonstrate the <code>.accordion-flush</code>
-                                                    class. This is the third item's accordion body. Nothing more
-                                                    exciting happening here in terms of content, but just filling up the
-                                                    space to make it look, at least at first glance, a bit more
-                                                    representative of how this would look in a real-world application.
+                                                <div class="accordion-body">Si.
                                                 </div>
                                             </div>
                                         </div>
@@ -209,52 +255,53 @@
 
                     <div class="col-12 col-lg-4">
 
-                        <div id="to_do" class="row mb-3 p-2">
-                            <div class="card-header">
-                                Todo
-                                <div class="col-12">
-                                    <div class="card">
-                                        <ul class="list-group">
-                                            <li class="list-group-item">
-                                                <input class="form-check-input me-1" type="checkbox" value=""
-                                                    id="firstCheckbox">
-                                                <label class="form-check-label" for="firstCheckbox">First
-                                                    checkbox</label>
-                                            </li>
-                                            <li class="list-group-item">
-                                                <input class="form-check-input me-1" type="checkbox" value=""
-                                                    id="secondCheckbox">
-                                                <label class="form-check-label" for="secondCheckbox">Second
-                                                    checkbox</label>
-                                            </li>
-                                            <li class="list-group-item">
-                                                <input class="form-check-input me-1" type="checkbox" value=""
-                                                    id="thirdCheckbox">
-                                                <label class="form-check-label" for="thirdCheckbox">Third
-                                                    checkbox</label>
-                                            </li>
-                                        </ul>
-                                    </div>
+                        <div id="to_do" class="row mb-3">
+                            <div class="col-12">
+                                <div class="card">
+                                    <div class="card-header">Todo</div>
+                                    <ul class="list-group p-3">
+                                        <li class="list-group-item">
+                                            <input class="form-check-input me-1" type="checkbox" value=""
+                                                id="firstCheckbox">
+                                            <label class="form-check-label" for="firstCheckbox">Kickoff nuove
+                                                classi</label>
+                                        </li>
+                                        <li class="list-group-item">
+                                            <input class="form-check-input me-1" type="checkbox" value=""
+                                                id="secondCheckbox">
+                                            <label class="form-check-label" for="secondCheckbox">Lezione su
+                                                Bootstrap 5 in classe #75
+                                            </label>
+                                        </li>
+                                        <li class="list-group-item">
+                                            <input class="form-check-input me-1" type="checkbox" value=""
+                                                id="thirdCheckbox">
+                                            <label class="form-check-label" for="thirdCheckbox">Controllare username
+                                                github studenti</label>
+                                        </li>
+                                    </ul>
                                 </div>
                             </div>
                         </div>
                         <div id="active_users" class="row">
                             <div class="col">
-                                <div class="card">
-                                    <img src="..." class="card-img-top" alt="...">
-                                    <div class="card-body">
-                                        <h5 class="card-title">Card title</h5>
-                                        <p class="card-text">Some quick example text to build on the card title and make
-                                            up the bulk of the card's content.</p>
-                                    </div>
-                                    <ul class="list-group list-group-flush">
-                                        <li class="list-group-item">An item</li>
-                                        <li class="list-group-item">A second item</li>
-                                        <li class="list-group-item">A third item</li>
-                                    </ul>
-                                    <div class="card-body">
-                                        <a href="#" class="card-link">Card link</a>
-                                        <a href="#" class="card-link">Another link</a>
+                                <div class="card p-3">
+                                    <div class="card">
+                                        <img src="./img/stats.jpeg" class="card-img-top" alt="...">
+                                        <div class="card-body">
+                                            <h5 class="card-title">Utenti attivi</h5>
+                                            <p class="card-text">Lista degli utenti attivi in piattafroma nell'ultimo
+                                                mese
+                                            </p>
+                                        </div>
+                                        <ul class="list-group list-group-flush">
+                                            <li class="list-group-item">Gennaio: 1200</li>
+                                            <li class="list-group-item">Febbraio: 800</li>
+                                            <li class="list-group-item">Marzo: 1500</li>
+                                        </ul>
+                                        <div class="card-body">
+                                            <a href="#" class="card-link">Visualizza report approfondito</a>
+                                        </div>
                                     </div>
                                 </div>
                             </div>

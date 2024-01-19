@@ -55,3 +55,14 @@
         min-height: 66px;
     }
 }
+
+
+/* test avatar img */
+.avatar {
+    width: 25px;
+}
+
+
+td[scope*="row"] {
+    width: 50%;
+}
