@@ -8,10 +8,11 @@
     height: calc(100vh - 54px);
 }
 
+
+/* IMPOSTARE ALTEZZA NAVBAR  */
+
 #boolean_row {
-    background-color: orange;
     height: 100px;
-    /* #1B72E8; */
 }
 
 #next_class {
@@ -48,6 +49,9 @@
 
 .aside {
     width: 70px;
+    background-image: url("../img/sidebar-bg.png");
+    background-color: #051E34;
+    background-position: 10%;
 }
 
 .main {
