@@ -20,29 +20,7 @@
     height: 100px;
 }
 
-#next_class {
-    background-color: burlywood;
-    height: 400px;
-}
 
-#to_do {
-    background-color: cornflowerblue;
-    height: 150px;
-}
-
-#faq {
-    background-color: greenyellow;
-    height: 200px;
-}
-
-#active_users {
-    background-color: darkorange;
-    height: 500px;
-}
-
-*[class^="col-"] {
-    border: 1px solid black;
-}
 
 .my_sidebar {
     height: calc(100vh - 66px);
