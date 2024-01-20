@@ -4,7 +4,7 @@
 }
 
 .my_color2 {
-    height: calc(100vh - 66px);
+    max-height: calc(100vh - 66px);
 }
 
 
@@ -13,8 +13,6 @@
     color: #FF8F00;
 }
 
-
-/* IMPOSTARE ALTEZZA NAVBAR  */
 
 #boolean_row {
     height: 100px;
@@ -51,11 +49,11 @@
         width: calc(100% - 150px);
     }
 
+    /* IMPOSTARE ALTEZZA NAVBAR  */
     .my_nav {
         min-height: 66px;
     }
 }
-
 
 /* test avatar img */
 .avatar {
@@ -65,4 +63,16 @@
 
 td[scope*="row"] {
     width: 50%;
+}
+
+#next_class {
+    font-size: 14px;
+}
+
+#to_do {
+    font-size: 14px;
+}
+
+#active_users {
+    font-size: 14px;
 }
