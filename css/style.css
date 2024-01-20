@@ -1,24 +1,11 @@
-/* test heights */
-.my_color1 {
-    background-color: aqua;
-}
-
 .my_color2 {
     max-height: calc(100vh - 66px);
 }
-
 
 /* set color nav bell icon TEMPORARY */
 .fa-bell {
     color: #FF8F00;
 }
-
-
-#boolean_row {
-    height: 100px;
-}
-
-
 
 .my_sidebar {
     height: calc(100vh - 66px);
@@ -60,12 +47,12 @@
     width: 25px;
 }
 
-
-td[scope*="row"] {
+/* ???? */
+/* td[scope*="row"] {
     width: 50%;
-}
+} */
 
-#next_class {
+/* #next_class {
     font-size: 14px;
 }
 
@@ -75,4 +62,7 @@ td[scope*="row"] {
 
 #active_users {
     font-size: 14px;
-}
+} */
+
+
+.dropdown-menu {}

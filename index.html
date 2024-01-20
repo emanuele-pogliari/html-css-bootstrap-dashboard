@@ -92,7 +92,7 @@
 
                 <div id="boolean_row" class="row mb-4 text-white bg-primary ">
 
-                    <div class="col-12 col-md-4 col-lg-6">
+                    <div class="col-12 col-md-4 col-lg-6 order-2 order-md-1">
                         <h3 class="d-inline">Boolean</h3>
                         <button class="btn btn-sm">Piano blaze</button>
 
@@ -108,11 +108,11 @@
                         </nav>
 
                     </div>
-                    <div class="col-12 col-md-4 col-lg-3">
+                    <div class="col-12 col-md-4 col-lg-3 order-3 order-md-2">
                         <div>Studenti online negli ultimi 30 minuti</div>
                         <div>125</div>
                     </div>
-                    <div class="col-12 col-md-4 col-lg-3">
+                    <div class="col-12 col-md-4 col-lg-3 order-1 order-md-3">
                         <div>Nuovo Studente</div>
                         <button>+</button>
                     </div>
@@ -129,99 +129,109 @@
                                     <div class="card-header fs-4">
                                         Prossime classi
                                     </div>
-                                    <table class="table table-hover">
-                                        <thead>
-                                            <tr>
-                                                <th scope="col">Nome</th>
-                                                <th scope="col">Data inizio</th>
-                                                <th scope="col">ROI</th>
-                                                <th scope="col">Stato</th>
-                                                <th scope="col">Azioni</th>
-                                            </tr>
-                                        </thead>
-                                        <tbody>
-                                            <tr>
-                                                <td scope="row"><img class="avatar" src="./img/class-avatar.jpg" alt="">
-                                                    Classe 75</td>
-                                                <td>15 Feb 2021</td>
-                                                <td>20%</td>
-                                                <td><button
-                                                        class="btn btn-sm btn-success rounded-3 px-2 py-1">Done</button>
-                                                </td>
-                                                <td>buttons</td>
-                                            </tr>
-                                            <tr>
-                                                <td scope="row"><img class="avatar" src="./img/class-avatar.jpg" alt="">
-                                                    Classe 76</td>
-                                                <td>16 Feb 2021</td>
-                                                <td>20%</td>
-                                                <td><button
-                                                        class="btn btn-sm btn-success rounded-3 px-2 py-1">Done</button>
-                                                </td>
-                                                <td>buttons</td>
-                                            </tr>
-                                            <tr>
-                                                <td scope="row"><img class="avatar" src="./img/class-avatar.jpg" alt="">
-                                                    Classe 77</td>
-                                                <td>17 Feb 2021</td>
-                                                <td>20%</td>
-                                                <td><button
-                                                        class="btn btn-sm btn-warning text-white  rounded-3 px-2 py-1">Process</button>
-                                                </td>
-                                                <td>buttons</td>
-                                            </tr>
-                                            <tr>
-                                                <td scope="row"><img class="avatar" src="./img/class-avatar.jpg" alt="">
-                                                    Classe 78</td>
-                                                <td>18 Feb 2021</td>
-                                                <td>20%</td>
-                                                <td><button
-                                                        class="btn btn-sm btn-success rounded-3 px-2 py-1">Done</button>
-                                                </td>
-                                                <td>buttons</td>
-                                            </tr>
-                                            <tr>
-                                                <td scope="row"><img class="avatar" src="./img/class-avatar.jpg" alt="">
-                                                    Classe 79</td>
-                                                <td>19 Feb 2021</td>
-                                                <td>20%</td>
-                                                <td><button
-                                                        class="btn btn-sm btn-danger rounded-3 px-2 py-1">Failed</button>
-                                                </td>
-                                                <td>buttons</td>
-                                            </tr>
-                                            <tr>
-                                                <td scope="row"><img class="avatar" src="./img/class-avatar.jpg" alt="">
-                                                    Classe 80</td>
-                                                <td>20 Feb 2021</td>
-                                                <td>20%</td>
-                                                <td><button
-                                                        class="btn btn-sm btn-success rounded-3 px-2 py-1">Done</button>
-                                                </td>
-                                                <td>buttons</td>
-                                            </tr>
-                                            <tr>
-                                                <td scope="row"><img class="avatar" src="./img/class-avatar.jpg" alt="">
-                                                    Classe 81</td>
-                                                <td>21 Feb 2021</td>
-                                                <td>20%</td>
-                                                <td><button
-                                                        class="btn btn-sm btn-danger rounded-3 px-2 py-1">Failed</button>
-                                                </td>
-                                                <td>buttons</td>
-                                            </tr>
-                                            <tr>
-                                                <td scope="row"><img class="avatar" src="./img/class-avatar.jpg" alt="">
-                                                    Classe 82</td>
-                                                <td>22 Feb 2021</td>
-                                                <td>20%</td>
-                                                <td><button
-                                                        class="btn btn-sm btn-success rounded-3 px-2 py-1">Done</button>
-                                                </td>
-                                                <td>buttons</td>
-                                            </tr>
-                                        </tbody>
-                                    </table>
+                                    <div class="table-container p-3 fs-6">
+                                        <table class="table table-hover">
+                                            <thead>
+                                                <tr class="small">
+                                                    <th scope="col" class="fw-normal col-lg-6">Nome</th>
+                                                    <th scope="col" class="fw-normal">Data inizio</th>
+                                                    <th scope="col" class="fw-normal">ROI</th>
+                                                    <th scope="col" class="fw-normal">Stato</th>
+                                                    <th scope="col" class="fw-normal">Azioni</th>
+                                                </tr>
+                                            </thead>
+                                            <tbody>
+                                                <tr>
+                                                    <td scope="row"><img class="avatar rounded-circle"
+                                                            src="./img/class-avatar.jpg" alt="">
+                                                        Classe 75</td>
+                                                    <td>15 Feb 2021</td>
+                                                    <td>20%</td>
+                                                    <td><button
+                                                            class="btn btn-sm btn-success rounded-3 px-2 py-1">Done</button>
+                                                    </td>
+                                                    <td>buttons</td>
+                                                </tr>
+                                                <tr>
+                                                    <td scope="row"><img class="avatar rounded-circle"
+                                                            src="./img/class-avatar.jpg" alt="">
+                                                        Classe 76</td>
+                                                    <td>16 Feb 2021</td>
+                                                    <td>20%</td>
+                                                    <td><button
+                                                            class="btn btn-sm btn-success rounded-3 px-2 py-1">Done</button>
+                                                    </td>
+                                                    <td>buttons</td>
+                                                </tr>
+                                                <tr>
+                                                    <td scope="row"><img class="avatar rounded-circle"
+                                                            src="./img/class-avatar.jpg" alt="">
+                                                        Classe 77</td>
+                                                    <td>17 Feb 2021</td>
+                                                    <td>20%</td>
+                                                    <td><button
+                                                            class="btn btn-sm btn-warning text-white  rounded-3 px-2 py-1">Process</button>
+                                                    </td>
+                                                    <td>buttons</td>
+                                                </tr>
+                                                <tr>
+                                                    <td scope="row"><img class="avatar rounded-circle"
+                                                            src="./img/class-avatar.jpg" alt="">
+                                                        Classe 78</td>
+                                                    <td>18 Feb 2021</td>
+                                                    <td>20%</td>
+                                                    <td><button
+                                                            class="btn btn-sm btn-success rounded-3 px-2 py-1">Done</button>
+                                                    </td>
+                                                    <td>buttons</td>
+                                                </tr>
+                                                <tr>
+                                                    <td scope="row"><img class="avatar rounded-circle"
+                                                            src="./img/class-avatar.jpg" alt="">
+                                                        Classe 79</td>
+                                                    <td>19 Feb 2021</td>
+                                                    <td>20%</td>
+                                                    <td><button
+                                                            class="btn btn-sm btn-danger rounded-3 px-2 py-1">Failed</button>
+                                                    </td>
+                                                    <td>buttons</td>
+                                                </tr>
+                                                <tr>
+                                                    <td scope="row"><img class="avatar rounded-circle"
+                                                            src="./img/class-avatar.jpg" alt="">
+                                                        Classe 80</td>
+                                                    <td>20 Feb 2021</td>
+                                                    <td>20%</td>
+                                                    <td><button
+                                                            class="btn btn-sm btn-success rounded-3 px-2 py-1">Done</button>
+                                                    </td>
+                                                    <td>buttons</td>
+                                                </tr>
+                                                <tr>
+                                                    <td scope="row"><img class="avatar rounded-circle"
+                                                            src="./img/class-avatar.jpg" alt="">
+                                                        Classe 81</td>
+                                                    <td>21 Feb 2021</td>
+                                                    <td>20%</td>
+                                                    <td><button
+                                                            class="btn btn-sm btn-danger rounded-3 px-2 py-1">Failed</button>
+                                                    </td>
+                                                    <td>buttons</td>
+                                                </tr>
+                                                <tr>
+                                                    <td scope="row"><img class="avatar rounded-circle"
+                                                            src="./img/class-avatar.jpg" alt="">
+                                                        Classe 82</td>
+                                                    <td>22 Feb 2021</td>
+                                                    <td>20%</td>
+                                                    <td><button
+                                                            class="btn btn-sm btn-success rounded-3 px-2 py-1">Done</button>
+                                                    </td>
+                                                    <td>buttons</td>
+                                                </tr>
+                                            </tbody>
+                                        </table>
+                                    </div>
                                 </div>
                             </div>
                         </div>
@@ -230,7 +240,7 @@
                             <div class="col">
                                 <div class="card">
                                     <div class="card-header fs-4">F.A.Q.</div>
-                                    <div class="accordion accordion-flush" id="accordionFlushExample">
+                                    <div class="accordion accordion-flush p-3" id="accordionFlushExample">
                                         <div class="accordion-item">
                                             <h2 class="accordion-header">
                                                 <button class="accordion-button collapsed" type="button"
