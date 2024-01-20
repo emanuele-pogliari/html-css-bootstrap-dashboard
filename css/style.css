@@ -66,3 +66,16 @@
 
 
 /* over buttons aside */
+#aside .my_aside_btn {
+    background-color: transparent;
+    transition: background-color 0.2s ease;
+}
+
+#aside .my_aside_btn:hover {
+    background-color: grey;
+    cursor: pointer;
+}
+
+#row .my_boolean_col .btn {
+    background-color: #165bba;
+}

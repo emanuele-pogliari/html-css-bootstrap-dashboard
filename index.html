@@ -52,24 +52,24 @@
 
         <div class="row">
 
-            <div class=" aside text-white d-flex my_sidebar">
+            <div id="aside" class=" aside text-white d-flex my_sidebar">
 
                 <div class="row align-content-between">
 
                     <div class="py-4 text-center">
 
-                        <div class="p-3">
-                            <i class="fa-solid fa-house me-1"></i>
+                        <div class="my_aside_btn p-2">
+                            <i class="fa-solid fa-house me-2"></i>
                             <span class="d-none d-lg-inline-block">Home</span>
                         </div>
 
-                        <div class="p-3">
-                            <i class="fa-solid fa-chart-simple me-1"></i>
+                        <div class="my_aside_btn p-2">
+                            <i class="fa-solid fa-chart-simple me-2"></i>
                             <span class="d-none d-lg-inline-block">Stats</span>
                         </div>
 
-                        <div class="p-3">
-                            <i class="fa-solid fa-signal me-1"></i>
+                        <div class="my_aside_btn p-2">
+                            <i class="fa-solid fa-signal me-2"></i>
                             <span class="d-none d-lg-inline-block">Signal</span>
                         </div>
 
@@ -77,7 +77,7 @@
 
                     <div class="col py-5 text-center">
 
-                        <div class="p-3">
+                        <div class="my_aside_btn p-2">
                             <i class="fa-solid fa-gear"></i>
                             <span class="d-none d-lg-inline-block">Admin</span>
                         </div>
@@ -92,32 +92,29 @@
 
                 <div id="boolean_row" class="row mb-4 text-white bg-primary py-4 ">
 
-                    <div class="col-12 col-md-4 col-lg-6 order-2 order-md-1">
+                    <div class="col-12 col-md-4 col-lg-6 order-2 order-md-1 my_boolean_col">
                         <h3 class="d-inline align-middle ">Boolean</h3>
 
-
-
-                        <button class=" prova btn btn-sm bg-danger rounded-4 py-0">Piano blaze</button>
-
+                        <button class=" prova btn btn-sm rounded-4 py-0">Piano blaze</button>
 
                         <nav aria-label="breadcrumb">
                             <div class="crumb">
-                                <button class="btn btn-sm bg-danger rounded-4 py-0">prova</button>
+                                <button class="btn btn-sm rounded-4 py-0">prova</button>
                                 <i class="fa-solid fa-angles-right align-middle "></i>
-                                <button class="btn btn-sm bg-danger rounded-4 py-0 d-inline-block d-lg-none ">ca sugnu
+                                <button class="btn btn-sm rounded-4 py-0 d-inline-block d-lg-none ">ca sugnu
                                     compà</button>
                                 <ol class="breadcrumb d-none d-lg-inline-block">
                                     <li class="breadcrumb-item">
-                                        <button class="btn btn-sm bg-danger rounded-4 py-0">1 app</button>
-                                        <button class="btn btn-sm bg-danger rounded-4 py-0">2 app</button>
-                                        <button class="btn btn-sm bg-danger rounded-4 py-0">3 app</button>
+                                        <button class="btn btn-sm rounded-4 py-0">1 app</button>
+                                        <button class="btn btn-sm rounded-4 py-0">2 app</button>
+                                        <button class="btn btn-sm rounded-4 py-0">3 app</button>
                                     </li>
                                 </ol>
                             </div>
                         </nav>
-
-
                     </div>
+
+
                     <div class="col-12 col-md-4 col-lg-3 order-3 order-md-2">
                         <div>Studenti online negli ultimi 30 minuti</div>
                         <div>125</div>
@@ -158,9 +155,7 @@
                                                         Classe 75</td>
                                                     <td>15 Feb 2021</td>
                                                     <td>20%</td>
-                                                    <td><button
-                                                            class="btn btn-sm btn-success rounded-3 px-2 py-1">Done</button>
-                                                    </td>
+                                                    <td><span class="badge text-bg-success">Done</span>
                                                     <td>buttons</td>
                                                 </tr>
                                                 <tr>
@@ -169,8 +164,7 @@
                                                         Classe 76</td>
                                                     <td>16 Feb 2021</td>
                                                     <td>20%</td>
-                                                    <td><button
-                                                            class="btn btn-sm btn-success rounded-3 px-2 py-1">Done</button>
+                                                    <td><span class="badge text-bg-success">Done</span>
                                                     </td>
                                                     <td>buttons</td>
                                                 </tr>
@@ -180,8 +174,8 @@
                                                         Classe 77</td>
                                                     <td>17 Feb 2021</td>
                                                     <td>20%</td>
-                                                    <td><button
-                                                            class="btn btn-sm btn-warning text-white  rounded-3 px-2 py-1">Process</button>
+                                                    <td>
+                                                        <span class="badge text-bg-warning text-white">Process</span>
                                                     </td>
                                                     <td>buttons</td>
                                                 </tr>
@@ -191,8 +185,7 @@
                                                         Classe 78</td>
                                                     <td>18 Feb 2021</td>
                                                     <td>20%</td>
-                                                    <td><button
-                                                            class="btn btn-sm btn-success rounded-3 px-2 py-1">Done</button>
+                                                    <td><span class="badge text-bg-success">Done</span>
                                                     </td>
                                                     <td>buttons</td>
                                                 </tr>
@@ -202,8 +195,7 @@
                                                         Classe 79</td>
                                                     <td>19 Feb 2021</td>
                                                     <td>20%</td>
-                                                    <td><button
-                                                            class="btn btn-sm btn-danger rounded-3 px-2 py-1">Failed</button>
+                                                    <td><span class="badge text-bg-danger">Failed</span>
                                                     </td>
                                                     <td>buttons</td>
                                                 </tr>
@@ -213,8 +205,7 @@
                                                         Classe 80</td>
                                                     <td>20 Feb 2021</td>
                                                     <td>20%</td>
-                                                    <td><button
-                                                            class="btn btn-sm btn-success rounded-3 px-2 py-1">Done</button>
+                                                    <td><span class="badge text-bg-success">Done</span>
                                                     </td>
                                                     <td>buttons</td>
                                                 </tr>
@@ -224,8 +215,7 @@
                                                         Classe 81</td>
                                                     <td>21 Feb 2021</td>
                                                     <td>20%</td>
-                                                    <td><button
-                                                            class="btn btn-sm btn-danger rounded-3 px-2 py-1">Failed</button>
+                                                    <td><span class="badge text-bg-danger">Failed</span>
                                                     </td>
                                                     <td>buttons</td>
                                                 </tr>
@@ -235,8 +225,7 @@
                                                         Classe 82</td>
                                                     <td>22 Feb 2021</td>
                                                     <td>20%</td>
-                                                    <td><button
-                                                            class="btn btn-sm btn-success rounded-3 px-2 py-1">Done</button>
+                                                    <td><span class="badge text-bg-success">Done</span>
                                                     </td>
                                                     <td>buttons</td>
                                                 </tr>
