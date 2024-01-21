@@ -88,26 +88,30 @@
 
             </div>
 
-            <div class=" main my_color2 overflow-y-auto ">
+            <div class=" main overflow-y-auto ">
 
                 <div id="boolean_row" class="row mb-4 text-white bg-primary py-4 ">
 
-                    <div class="col-12 col-md-4 col-lg-6 order-2 order-md-1 my_boolean_col">
-                        <h3 class="d-inline align-middle ">Boolean</h3>
+                    <div class="col-12 col-md-4 col-lg-6 order-2 order-md-1">
+                        <h3 class="d-inline ">Boolean</h3>
 
-                        <button class=" prova btn btn-sm rounded-4 py-0">Piano blaze</button>
+                        <button class=" prova btn btn-sm rounded-4 py-0 my_btn_boolean_row">Piano blaze</button>
 
-                        <nav aria-label="breadcrumb">
+                        <nav aria-label="breadcrumb" class="mt-2">
                             <div class="crumb">
-                                <button class="btn btn-sm rounded-4 py-0">prova</button>
-                                <i class="fa-solid fa-angles-right align-middle "></i>
-                                <button class="btn btn-sm rounded-4 py-0 d-inline-block d-lg-none ">ca sugnu
-                                    compà</button>
+                                <button class="btn btn-sm rounded-4 py-0 my_btn_boolean_row">3 app</button>
+                                <i class="fa-solid fa-angles-right align-middle"></i>
+                                <button
+                                    class="btn btn-sm rounded-circle d-inline-block d-lg-none my_btn_boolean_row "><i
+                                        class="fa-solid fa-plus"></i></button>
                                 <ol class="breadcrumb d-none d-lg-inline-block">
                                     <li class="breadcrumb-item">
-                                        <button class="btn btn-sm rounded-4 py-0">1 app</button>
-                                        <button class="btn btn-sm rounded-4 py-0">2 app</button>
-                                        <button class="btn btn-sm rounded-4 py-0">3 app</button>
+                                        <button class="btn btn-sm rounded-4 py-0 my_btn_boolean_row">Boolean mobile
+                                            app</button>
+                                        <button class="btn btn-sm rounded-4 py-0 my_btn_boolean_row">Boolean web
+                                            app</button>
+                                        <button class="btn btn-sm rounded-4 py-0 my_btn_boolean_row">Boolean blog
+                                            app</button>
                                     </li>
                                 </ol>
                             </div>
@@ -117,7 +121,7 @@
 
                     <div class="col-12 col-md-4 col-lg-3 order-3 order-md-2">
                         <div>Studenti online negli ultimi 30 minuti</div>
-                        <div>125</div>
+                        <div class="fs-3">125</div>
                     </div>
                     <div class="col-12 col-md-4 col-lg-3  order-1 order-md-3 ">
                         <div class="d-inline-block">Nuovo Studente</div>
@@ -142,89 +146,90 @@
                                             <thead>
                                                 <tr class="small">
                                                     <th scope="col" class="fw-normal col-lg-6">Nome</th>
-                                                    <th scope="col" class="fw-normal">Data inizio</th>
-                                                    <th scope="col" class="fw-normal">ROI</th>
+                                                    <th scope="col" class="fw-normal d-none d-md-table-cell">Data inizio
+                                                    </th>
+                                                    <th scope="col" class="fw-normal d-none d-md-table-cell">ROI</th>
                                                     <th scope="col" class="fw-normal">Stato</th>
                                                     <th scope="col" class="fw-normal">Azioni</th>
                                                 </tr>
                                             </thead>
                                             <tbody>
                                                 <tr>
-                                                    <td scope="row"><img class="avatar rounded-circle"
+                                                    <td scope="row"><img class="avatar rounded-circle me-2"
                                                             src="./img/class-avatar.jpg" alt="">
                                                         Classe 75</td>
-                                                    <td>15 Feb 2021</td>
-                                                    <td>20%</td>
+                                                    <td class="d-none d-md-table-cell">15 Feb 2021</td>
+                                                    <td class="d-none d-md-table-cell">20%</td>
                                                     <td><span class="badge text-bg-success">Done</span>
                                                     <td>buttons</td>
                                                 </tr>
                                                 <tr>
-                                                    <td scope="row"><img class="avatar rounded-circle"
+                                                    <td scope="row"><img class="avatar rounded-circle me-2"
                                                             src="./img/class-avatar.jpg" alt="">
                                                         Classe 76</td>
-                                                    <td>16 Feb 2021</td>
-                                                    <td>20%</td>
+                                                    <td class="d-none d-md-table-cell">16 Feb 2021</td>
+                                                    <td class="d-none d-md-table-cell">20%</td>
                                                     <td><span class="badge text-bg-success">Done</span>
                                                     </td>
                                                     <td>buttons</td>
                                                 </tr>
                                                 <tr>
-                                                    <td scope="row"><img class="avatar rounded-circle"
+                                                    <td scope="row"><img class="avatar rounded-circle me-2"
                                                             src="./img/class-avatar.jpg" alt="">
                                                         Classe 77</td>
-                                                    <td>17 Feb 2021</td>
-                                                    <td>20%</td>
+                                                    <td class="d-none d-md-table-cell">17 Feb 2021</td>
+                                                    <td class="d-none d-md-table-cell">20%</td>
                                                     <td>
                                                         <span class="badge text-bg-warning text-white">Process</span>
                                                     </td>
                                                     <td>buttons</td>
                                                 </tr>
                                                 <tr>
-                                                    <td scope="row"><img class="avatar rounded-circle"
+                                                    <td scope="row"><img class="avatar rounded-circle me-2"
                                                             src="./img/class-avatar.jpg" alt="">
                                                         Classe 78</td>
-                                                    <td>18 Feb 2021</td>
-                                                    <td>20%</td>
+                                                    <td class="d-none d-md-table-cell">18 Feb 2021</td>
+                                                    <td class="d-none d-md-table-cell">20%</td>
                                                     <td><span class="badge text-bg-success">Done</span>
                                                     </td>
                                                     <td>buttons</td>
                                                 </tr>
                                                 <tr>
-                                                    <td scope="row"><img class="avatar rounded-circle"
+                                                    <td scope="row"><img class="avatar rounded-circle me-2"
                                                             src="./img/class-avatar.jpg" alt="">
                                                         Classe 79</td>
-                                                    <td>19 Feb 2021</td>
-                                                    <td>20%</td>
+                                                    <td class="d-none d-md-table-cell">19 Feb 2021</td>
+                                                    <td class="d-none d-md-table-cell">20%</td>
                                                     <td><span class="badge text-bg-danger">Failed</span>
                                                     </td>
                                                     <td>buttons</td>
                                                 </tr>
                                                 <tr>
-                                                    <td scope="row"><img class="avatar rounded-circle"
+                                                    <td scope="row"><img class="avatar rounded-circle me-2"
                                                             src="./img/class-avatar.jpg" alt="">
                                                         Classe 80</td>
-                                                    <td>20 Feb 2021</td>
-                                                    <td>20%</td>
+                                                    <td class="d-none d-md-table-cell">20 Feb 2021</td>
+                                                    <td class="d-none d-md-table-cell">20%</td>
                                                     <td><span class="badge text-bg-success">Done</span>
                                                     </td>
                                                     <td>buttons</td>
                                                 </tr>
                                                 <tr>
-                                                    <td scope="row"><img class="avatar rounded-circle"
+                                                    <td scope="row"><img class="avatar rounded-circle me-2"
                                                             src="./img/class-avatar.jpg" alt="">
                                                         Classe 81</td>
-                                                    <td>21 Feb 2021</td>
-                                                    <td>20%</td>
+                                                    <td class="d-none d-md-table-cell">21 Feb 2021</td>
+                                                    <td class="d-none d-md-table-cell">20%</td>
                                                     <td><span class="badge text-bg-danger">Failed</span>
                                                     </td>
                                                     <td>buttons</td>
                                                 </tr>
                                                 <tr>
-                                                    <td scope="row"><img class="avatar rounded-circle"
+                                                    <td scope="row"><img class="avatar rounded-circle me-2"
                                                             src="./img/class-avatar.jpg" alt="">
                                                         Classe 82</td>
-                                                    <td>22 Feb 2021</td>
-                                                    <td>20%</td>
+                                                    <td class="d-none d-md-table-cell">22 Feb 2021</td>
+                                                    <td class="d-none d-md-table-cell">20%</td>
                                                     <td><span class="badge text-bg-success">Done</span>
                                                     </td>
                                                     <td>buttons</td>
@@ -236,7 +241,7 @@
                             </div>
                         </div>
 
-                        <div id="faq" class="row">
+                        <div id="faq" class="row mb-md-3">
                             <div class="col">
                                 <div class="card">
                                     <div class="card-header fs-4">F.A.Q.</div>

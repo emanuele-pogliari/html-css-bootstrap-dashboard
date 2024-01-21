@@ -1,8 +1,3 @@
-.my_color2 {
-    max-height: calc(100vh - 66px);
-}
-
-/* set color nav bell icon TEMPORARY */
 .fa-bell {
     color: #FF8F00;
 }
@@ -24,6 +19,7 @@
 
 .main {
     width: calc(100% - 70px);
+    max-height: calc(100vh - 66px);
 }
 
 /* Media queries */
@@ -52,18 +48,6 @@
     width: 50%;
 } */
 
-/* #next_class {
-    font-size: 14px;
-}
-
-#to_do {
-    font-size: 14px;
-}
-
-#active_users {
-    font-size: 14px;
-} */
-
 
 /* over buttons aside */
 #aside .my_aside_btn {
@@ -76,6 +60,7 @@
     cursor: pointer;
 }
 
-#row .my_boolean_col .btn {
+#boolean_row .my_btn_boolean_row {
+    color: white;
     background-color: #165bba;
 }
