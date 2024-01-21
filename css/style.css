@@ -14,7 +14,6 @@
     width: 70px;
     background-image: url("../img/sidebar-bg.png");
     background-color: #051E34;
-    background-position: 10%;
 }
 
 .main {
@@ -63,4 +62,20 @@
 #boolean_row .my_btn_boolean_row {
     color: white;
     background-color: #165bba;
+}
+
+
+.my_search_color {
+    background-color: #E5E5E5;
+    color: grey;
+}
+
+.my_action_btn {
+    border-color: grey;
+    color: grey
+}
+
+.my_action_btn:hover {
+    background-color: white;
+    color: grey;
 }
