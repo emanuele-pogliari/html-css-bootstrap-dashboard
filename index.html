@@ -98,7 +98,7 @@
 
             <div class=" main overflow-y-auto ">
 
-                <div id="boolean_row" class="row mb-4 text-white bg-primary py-4 ">
+                <section id="boolean_row" class="row mb-4 text-white bg-primary py-4 ">
 
                     <div class="col-12 col-md-4 col-lg-6 order-2 order-md-1">
                         <h3 class="d-inline ">Boolean</h3>
@@ -133,13 +133,81 @@
                     </div>
                     <div class="col-12 col-md-4 col-lg-3  order-1 order-md-3 ">
                         <div class="d-inline-block fs-5 pe-3">Nuovo Studente</div>
-                        <button class="btn border-2 border-white px-3 py-2 text-white "><i
-                                class="fa-solid fa-plus"></i></button>
+                        <button class="btn border-2 border-white p-0 text-white">
+                            <a class="btn btn-primary" data-bs-toggle="offcanvas" href="#offcanvasExample" role="button"
+                                aria-controls="offcanvasExample">
+                                <i class="fa-solid fa-plus" id="offcanvas"></i>
+                            </a>
+                        </button>
+
+                        <div class="offcanvas offcanvas-end my_offcanvas" tabindex="-1" id="offcanvasExample"
+                            aria-labelledby="offcanvasExampleLabel">
+                            <div class="offcanvas-header">
+                                <h5 class="offcanvas-title" id="offcanvasExampleLabel">Inserisci un nuovo studente</h5>
+                                <button type="button" class="btn-close" data-bs-dismiss="offcanvas"
+                                    aria-label="Close"></button>
+                            </div>
+                            <div class="offcanvas-body">
+                                <form class="row g-3">
+                                    <div class="col-6">
+                                        <label for="inputName" class="form-label">Nome</label>
+                                        <input type="text" class="form-control" id="inputName">
+                                    </div>
+                                    <div class="col-6">
+                                        <label for="inputName" class="form-label">Cognome</label>
+                                        <input type="text" class="form-control" id="inputSurname">
+                                    </div>
+                                    <div class="col-6">
+                                        <label for="inputEmail" class="form-label">Nome</label>
+                                        <input type="email" class="form-control" id="inputEmail">
+                                    </div>
+                                    <div class="col-6">
+                                        <label for="inputPassword" class="form-label">Cognome</label>
+                                        <input type="password" class="form-control" id="inputPassword">
+                                    </div>
+                                    <div class="col-12">
+                                        <label for="inputAddress" class="form-label">Indirizzo</label>
+                                        <input type="text" class="form-control" id="inputAddress">
+                                    </div>
+
+                                    <div class="col-6">
+                                        <label for="inputCity" class="form-label">Città</label>
+                                        <input type="text" class="form-control" id="inputCity">
+                                    </div>
+                                    <div class="col-4">
+                                        <label for="inputState" class="form-label">Stato</label>
+                                        <select id="inputState" class="form-select">
+                                            <option selected>Scegli...</option>
+                                            <option>Italia</option>
+                                            <option>Germania</option>
+                                            <option>Regno Unito</option>
+                                        </select>
+                                    </div>
+                                    <div class="col-2">
+                                        <label for="inputCAP" class="form-label">CAP</label>
+                                        <input type="text" class="form-control" id="inputCAP">
+                                    </div>
+                                    <div class="col-12"></div>
+                                    <div class="col-12">
+                                        <div class="form-check">
+                                            <input class="form-check-input" type="checkbox" id="gridCheck">
+                                            <label class="form-check-label" for="gridCheck">
+                                                Seleziona per proseguire
+                                            </label>
+                                        </div>
+                                    </div>
+                                    <div class="col-12">
+                                        <button type="submit" class="btn btn-primary">Salva</button>
+                                        <button type="submit" class="btn btn-warning">Svuota</button>
+                                    </div>
+                                </form>
+                            </div>
+                        </div>
                     </div>
 
-                </div>
+                </section>
 
-                <div id="first_row" class="row">
+                <section id="first_row" class="row">
 
                     <div class="col-12 col-lg-8">
 
@@ -406,10 +474,13 @@
                         </div>
 
                     </div>
-                </div>
             </div>
-
         </div>
+
+    </div>
+
+    </div>
+
 
     </div>
 

@@ -31,22 +31,23 @@
         width: calc(100% - 150px);
     }
 
-    /* IMPOSTARE ALTEZZA NAVBAR  */
     .my_nav {
         min-height: 66px;
     }
+
+    .my_offcanvas.offcanvas-end {
+        width: 40%;
+    }
+}
+
+.my_offcanvas.offcanvas-end {
+    width: 100%;
 }
 
 /* test avatar img */
 .avatar {
     width: 25px;
 }
-
-/* ???? */
-/* td[scope*="row"] {
-    width: 50%;
-} */
-
 
 /* over buttons aside */
 #aside .my_aside_btn {
@@ -63,7 +64,6 @@
     color: white;
     background-color: #165bba;
 }
-
 
 .my_search_color {
     background-color: #E5E5E5;
