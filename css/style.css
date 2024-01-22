@@ -35,13 +35,10 @@
         min-height: 66px;
     }
 
-    .my_offcanvas.offcanvas-end {
-        width: 40%;
+    .offcanvas.offcanvas-end {
+        width: 50%;
     }
-}
 
-.my_offcanvas.offcanvas-end {
-    width: 100%;
 }
 
 /* test avatar img */
