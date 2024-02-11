@@ -24,11 +24,10 @@
             <form class="d-flex flex-grow-1" role="search">
 
                 <div class="input-group rounded-3">
-                    <span class="input-group-text border-0 my_search_color" id="basic-addon1"><i
+                    <span class="input-group-text border-0 my_search_color" id="searchBar"><i
                             class="fa-solid fa-magnifying-glass"></i></span>
                     <input type="text" class="form-control my_search_color fs-6 shadow-none border-0 ps-0"
-                        placeholder="Prova a cercare: Lezioni di Laravel" aria-label="search"
-                        aria-describedby="basic-addon1">
+                        placeholder="Prova a cercare: Lezioni di Laravel" aria-label="search" aria-describedby="search">
                 </div>
 
             </form>
@@ -39,12 +38,12 @@
                 <button type="button" class="btn"><i type="button" class=" fa-solid fa-ellipsis-vertical"></i></button>
             </div>
             <!-- CHANGE POSITION: TOP:70%, RIGHT:30%-->
-            <div class="btn-group dropstart">
+            <div class="btn-group dropstart my_dropdown ">
                 <button type="button" class="btn border-0" type="button" data-bs-toggle="dropdown"
                     aria-expanded="false">
                     <i class="fa-solid fa-bell"></i>
                 </button>
-                <ul class="dropdown-menu">
+                <ul class="dropdown-menu position-absolute top-50 end-50 ">
                     <li><a class="dropdown-item" href="#">Profilo</a></li>
                     <li><a class="dropdown-item" href="#">Fatturazione</a></li>
                     <li><a class="dropdown-item" href="#">Logout</a></li>
@@ -66,17 +65,17 @@
                     <div class="py-4 text-center">
 
                         <div class="my_aside_btn p-2">
-                            <i class="fa-solid fa-house me-2"></i>
+                            <i class="fa-solid fa-house me-lg-2"></i>
                             <span class="d-none d-lg-inline-block">Home</span>
                         </div>
 
                         <div class="my_aside_btn p-2">
-                            <i class="fa-solid fa-chart-simple me-2"></i>
+                            <i class="fa-solid fa-chart-simple me-lg-2"></i>
                             <span class="d-none d-lg-inline-block">Stats</span>
                         </div>
 
                         <div class="my_aside_btn p-2">
-                            <i class="fa-solid fa-signal me-2"></i>
+                            <i class="fa-solid fa-signal me-lg-2"></i>
                             <span class="d-none d-lg-inline-block">Signal</span>
                         </div>
 
@@ -97,9 +96,9 @@
 
             <div class=" main overflow-y-auto ">
 
-                <section id="boolean_row" class="row mb-4 text-white bg-primary py-4 ">
+                <section id="boolean_row" class="row mb-4 text-white bg-primary py-3 ">
 
-                    <div class="col-12 col-md-4 col-lg-6 order-2 order-md-1">
+                    <div class="col-12 col-md-4 col-lg-6 order-2 order-md-1 py-2">
                         <h3 class="d-inline ">Boolean</h3>
 
                         <button class=" prova btn btn-sm rounded-4 py-0 my_btn_boolean_row">Piano blaze</button>
@@ -126,14 +125,14 @@
                     </div>
 
 
-                    <div class="col-12 col-md-4 col-lg-3 order-3 order-md-2">
+                    <div class="col-12 col-md-4 col-lg-3 order-3 order-md-2 py-2">
                         <div>Studenti online negli ultimi 30 minuti</div>
                         <div class="fs-3">125</div>
                     </div>
-                    <div class="col-12 col-md-4 col-lg-3  order-1 order-md-3 ">
+                    <div class="col-12 col-md-4 col-lg-3  order-1 order-md-3 py-2 ">
                         <div class="d-inline-block fs-5 pe-3">Nuovo Studente</div>
-                        <button class="btn border-2 border-white p-0 text-white">
-                            <a class="btn btn-primary" data-bs-toggle="offcanvas" href="#offcanvasExample" role="button"
+                        <button class="btn border-2 border-white my_student_btn">
+                            <a class="my_link_btn" data-bs-toggle="offcanvas" href="#offcanvasExample" role="button"
                                 aria-controls="offcanvasExample">
                                 <i class="fa-solid fa-plus" id="offcanvas"></i>
                             </a>
@@ -220,7 +219,7 @@
                                         <table class="table table-hover">
                                             <thead>
                                                 <tr class="small">
-                                                    <th scope="col" class="fw-normal col-lg-6">Nome</th>
+                                                    <th scope="col" class="fw-normal col-lg-4 col-xxl-6">Nome</th>
                                                     <th scope="col"
                                                         class="fw-normal d-none d-md-table-cell text-center">Data inizio
                                                     </th>
@@ -417,7 +416,6 @@
                         </div>
 
                     </div>
-
                     <div class="col-12 col-lg-4">
                         <div id="to_do" class="row mb-3">
                             <div class="col-12">
@@ -472,14 +470,9 @@
                         </div>
 
                     </div>
+                </section>
             </div>
         </div>
-
-    </div>
-
-    </div>
-
-
     </div>
 
     <!-- end main container -->

@@ -1,13 +1,20 @@
-.fa-bell {
+/* navbar */
+.my_dropdown .fa-bell {
     color: #FF8F00;
 }
 
-.my_sidebar {
-    height: calc(100vh - 66px);
+.my_search_color {
+    background-color: #E5E5E5;
+    color: grey;
 }
 
 .mobile_logo {
     width: 40px
+}
+
+/* Aside */
+.my_sidebar {
+    height: calc(100vh - 66px);
 }
 
 .aside {
@@ -16,9 +23,55 @@
     background-color: #051E34;
 }
 
+/* Main */
 .main {
     width: calc(100% - 70px);
     max-height: calc(100vh - 66px);
+}
+
+.avatar {
+    width: 25px;
+}
+
+/* Table next-class */
+
+.my_action_btn {
+    border-color: grey;
+    color: grey
+}
+
+.my_action_btn:hover {
+    background-color: white;
+    color: grey;
+}
+
+/* hover buttons aside */
+#aside .my_aside_btn {
+    background-color: transparent;
+    transition: background-color 0.2s ease;
+}
+
+#aside .my_aside_btn:hover {
+    background-color: grey;
+    cursor: pointer;
+}
+
+#boolean_row .my_btn_boolean_row {
+    color: white;
+    background-color: #165bba;
+}
+
+.my_student_btn:hover {
+    background-color: white;
+    color: #165bba;
+}
+
+.my_student_btn:hover .fa-plus {
+    color: #165bba;
+}
+
+.my_link_btn {
+    color: white;
 }
 
 /* Media queries */
@@ -38,40 +91,4 @@
     .offcanvas.offcanvas-end {
         width: 50%;
     }
-}
-
-/* test avatar img */
-.avatar {
-    width: 25px;
-}
-
-/* over buttons aside */
-#aside .my_aside_btn {
-    background-color: transparent;
-    transition: background-color 0.2s ease;
-}
-
-#aside .my_aside_btn:hover {
-    background-color: grey;
-    cursor: pointer;
-}
-
-#boolean_row .my_btn_boolean_row {
-    color: white;
-    background-color: #165bba;
-}
-
-.my_search_color {
-    background-color: #E5E5E5;
-    color: grey;
-}
-
-.my_action_btn {
-    border-color: grey;
-    color: grey
-}
-
-.my_action_btn:hover {
-    background-color: white;
-    color: grey;
 }
